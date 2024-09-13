@@ -14,9 +14,10 @@ public class Scene1 extends JPanel {
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		
-		g.setColor(Color.red);
-		g.drawOval(200, 200, 50,50);
+		g.setColor(new Color(200,255,00));
+		g.drawOval(200, 200, 500,50);
 		g.drawString("Scene2", 30, 30);
+		
 		
 	}
 

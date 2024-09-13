@@ -1,10 +1,6 @@
 package Comic;
 
 import javax.swing.*;
-
-import drawingGUI.feshal;
-import drawingGUI.trace;
-
 import java.awt.*;
 
 
@@ -17,8 +13,8 @@ public class myDrawing {
 		frame.setTitle("my first drawing");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		Scene1 s1 = new Scene1(new Color(125, 254, 200));
-		Scene2 s2 = new Scene2(Color.pink);
+		Scene1 s1 = new Scene1(Color.blue);
+		Scene2 s2 = new Scene2(Color.green);
 		Scene3 s3 = new Scene3(Color.red);
 		Scene4 s4 = new Scene4(Color.yellow);
 		Scene5 s5 = new Scene5(Color.red);
